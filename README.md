@@ -18,6 +18,8 @@ This command mainly creates the servers and loadbalancers  .
 ```sh
 aws cloudformation create-stack --stack-name udagram-server --template-body file://udagram-server.yml    --parameters file://udagram-server-parameters.json  --region=us-east-1
 ```
+## URLs
+[LB URL](http://udagr-webap-dkgi26fgewb9-1957040691.us-east-1.elb.amazonaws.com)
 
 
 
